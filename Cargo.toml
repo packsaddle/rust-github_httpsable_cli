@@ -31,3 +31,4 @@ repository = "packsaddle/rust-github_httpsable_cli"
 repository = "packsaddle/rust-github_httpsable_cli"
 
 [dependencies]
+git_httpsable = "1.0.0"
