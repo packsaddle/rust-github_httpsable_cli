@@ -2,11 +2,24 @@
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
-> github via https.
+> Execute git command with https-url (for GitHub).
 
 See [git_httpsable](https://github.com/packsaddle/rust-git_httpsable) for the programmatic API.
+See [git_httpsable_cli](https://github.com/packsaddle/rust-git_httpsable_cli) for general cli.
 
 ## Example
+
+```bash
+$ GIT_HTTPSABLE_USERNAME=__your_user_name__ \
+  github-httpsable clone https://example.com/git/repo ./target_dir
+# => git clone https://__your_user_name__:x-oauth-user@example.com/git/repo ./target_dir
+```
+
+```bash
+$ GIT_HTTPSABLE_USERNAME=__your_user_name__ \
+  github-httpsable push https://example.com/git/repo your_branch
+# => git push https://__your_user_name__:x-oauth-user@example.com/git/repo your_branch
+```
 
 
 ## Install
