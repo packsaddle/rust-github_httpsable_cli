@@ -21,7 +21,7 @@ repository = "https://github.com/packsaddle/rust-github_httpsable_cli/"
 version = "0.1.0"
 
 [[bin]]
-name = "github-httpsable-cli"
+name = "github-httpsable"
 path = "src/main.rs"
 [badges.appveyor]
 project_name = "sanemat/rust-github_httpsable_cli"
