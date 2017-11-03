@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My majestic module"
+description = "github via https."
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -16,18 +16,18 @@ include = [
 ]
 keywords = ["git"]
 license = "MIT/Apache-2.0"
-name = "github-httpsable-cli"
-repository = "https://github.com/packsaddle/github-httpsable-cli/"
+name = "github_httpsable_cli"
+repository = "https://github.com/packsaddle/rust-github_httpsable_cli/"
 version = "0.1.0"
 
 [[bin]]
-name = "github-httpsable-cli"
+name = "github-httpsable"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "packsaddle/github-httpsable-cli"
-repository = "packsaddle/github-httpsable-cli"
+project_name = "sanemat/rust-github_httpsable_cli"
+repository = "packsaddle/rust-github_httpsable_cli"
 
 [badges.travis-ci]
-repository = "packsaddle/github-httpsable-cli"
+repository = "packsaddle/rust-github_httpsable_cli"
 
 [dependencies]

@@ -21,7 +21,7 @@ main() {
     cross rustc --target $TARGET --release -- -C lto
 
     # TODO Update this to package the right artifacts
-    cp target/$TARGET/release/github-httpsable-cli $stage/
+    cp target/$TARGET/release/github-httpsable $stage/
     cp changelog.md $stage/
     cp readme.md $stage/
     cp license-apache $stage/
