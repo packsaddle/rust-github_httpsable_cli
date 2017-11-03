@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My majestic module"
+description = "github via https."
 include = [
     "src/**/*",
     "Cargo.toml",

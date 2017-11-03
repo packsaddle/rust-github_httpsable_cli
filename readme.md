@@ -2,7 +2,7 @@
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
-> GitHub httpsable cli
+> github via https.
 
 See [git_httpsable](https://github.com/packsaddle/rust-git_httpsable) for the programmatic API.
 
