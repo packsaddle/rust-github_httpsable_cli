@@ -9,7 +9,8 @@ fn main() {
         Err(_) => panic!("GIT_HTTPSABLE_USERNAME is required."),
     };
     let password = "x-oauth-basic".to_string();
-    let mut child = git_httpsable::run(&args[1..], &username, &password).unwrap();
-    let ecode = child.wait().unwrap();
+    let mut child = git_httpsable::run(&args[1..], &username, &password)
+        .expect("git command failed to start");
+    let ecode = child.wait().expect("failed to wait on child");
     std::process::exit(ecode.code().unwrap());
 }
