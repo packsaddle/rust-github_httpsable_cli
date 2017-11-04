@@ -5,7 +5,7 @@
 > Execute git command with https-url (for GitHub).
 
 See [git_httpsable](https://github.com/packsaddle/rust-git_httpsable) for the programmatic API.
-See [git_httpsable_cli](https://github.com/packsaddle/rust-git_httpsable_cli) for general cli.
+See [git_httpsable_cli](https://github.com/packsaddle/rust-git_httpsable_cli) for generic cli.
 
 ## Example
 
