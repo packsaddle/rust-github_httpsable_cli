@@ -4,9 +4,9 @@ use std::env;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let username = match env::var("GIT_HTTPSABLE_USERNAME") {
+    let username = match env::var("GITHUB_ACCESS_TOKEN").or(env::var("GIT_HTTPSABLE_USERNAME")) {
         Ok(result) => result,
-        Err(_) => panic!("GIT_HTTPSABLE_USERNAME is required."),
+        Err(_) => panic!("GITHUB_ACCESS_TOKEN or GIT_HTTPSABLE_USERNAME is required."),
     };
     let password = "x-oauth-basic".to_string();
     let mut child = git_httpsable::run(&args[1..], &username, &password)
