@@ -14,7 +14,7 @@ include = [
     "license-apache",
     "license-mit",
 ]
-keywords = ["git"]
+keywords = ["git", "github"]
 license = "MIT/Apache-2.0"
 name = "github_httpsable_cli"
 repository = "https://github.com/packsaddle/rust-github_httpsable_cli/"
@@ -24,7 +24,7 @@ version = "0.1.0"
 name = "github-httpsable"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "sanemat/rust-github_httpsable_cli"
+project_name = "sanemat/rust-github-httpsable-cli"
 repository = "packsaddle/rust-github_httpsable_cli"
 
 [badges.travis-ci]
