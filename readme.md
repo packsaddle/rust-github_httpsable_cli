@@ -10,15 +10,15 @@ See [git_httpsable_cli](https://github.com/packsaddle/rust-git_httpsable_cli) fo
 ## Example
 
 ```bash
-$ GITHUB_ACCESS_TOKEN=__your_user_name__ \
+$ GITHUB_ACCESS_TOKEN=__your_access_token__ \
   github-httpsable clone https://example.com/git/repo ./target_dir
-# => git clone https://__your_user_name__:x-oauth-user@example.com/git/repo ./target_dir
+# => git clone https://__your_access_token__:x-oauth-user@example.com/git/repo ./target_dir
 ```
 
 ```bash
-$ GIT_HTTPSABLE_USERNAME=__your_user_name__ \
+$ GIT_HTTPSABLE_USERNAME=__your_access_token__ \
   github-httpsable push https://example.com/git/repo your_branch
-# => git push https://__your_user_name__:x-oauth-user@example.com/git/repo your_branch
+# => git push https://__your_access_token__:x-oauth-user@example.com/git/repo your_branch
 ```
 
 NOTE: Both `GITHUB_ACCESS_TOKEN` and `GIT_HTTPSABLE_USERNAME` are ok.
