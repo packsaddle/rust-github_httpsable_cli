@@ -18,7 +18,7 @@ keywords = ["git", "github"]
 license = "MIT/Apache-2.0"
 name = "github_httpsable_cli"
 repository = "https://github.com/packsaddle/rust-github_httpsable_cli/"
-version = "0.1.0"
+version = "1.0.0"
 
 [[bin]]
 name = "github-httpsable"
